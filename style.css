@@ -1,9 +1,11 @@
 .header {
-    background-color: gray;
-    position:fixed;
+    background-color: #f12;
+    position: fixed;
     width: 100%;
+    border: 2px;
+    margin: 2px;
 }
-*{
+* {
     margin: 0px;
     padding: 5px;
     border: 1px;
@@ -13,33 +15,32 @@
 body {
     background-color: #f0f0f0;
 }
-.card-container{
+.card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 200px;
 }
-.card{
+.card {
     width: 300px;
-    background-color:#f0f0f0 ;
+    background-color: #f0f0f0;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba (0,0,0,0.2);
-    margin: 20px;
+    box-shadow: 0px 2px 4px rgba(45, 18, 194, 0.2); 
+    margin: 50px;
 }
-.img{
+.card-img-top {
     width: 100%;
     height: auto;
 }
 .card-content {
     padding: 16px;
 }
-.card-content h3{
+.card-content h3 {
     font-size: 28px;
     margin-bottom: 8px;
-
 }
-.card-content{
+.card-content {
     color: #666;
     font-size: 15px;
     line-height: 1.3;
