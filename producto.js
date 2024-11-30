@@ -76,7 +76,6 @@ const data = [
     }
 ];
 
-// Buscar el producto por ID
 const producto = data.find(item => item.id === prodId);
 
 if (producto) {
