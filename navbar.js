@@ -1,7 +1,7 @@
 const categorias = [
-    { nombre: "Pantalones", url: "pantalones.html" },
-    { nombre: "Remeras", url: "remeras.html" },
-    { nombre: "Zapatillas", url: "zapatillas.html" }
+    { nombre: "Inicio", url: "index.html" },
+    { nombre: "Producto", url: "Producto.html" },
+    { nombre: "#", url: "#.html" }
 ];
 
 let menu = `
